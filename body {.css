@@ -1,0 +1,35 @@
+body {
+    background:center / cover, linear-gradient(white,blue,yellow);
+    background-blend-mode: screen;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  
+  
+      text-shadow: 10px 10px 0 rgba(0,0,0,1);
+      font-size: 40px;
+      outline: 0;
+    }
+  
+  #canvas{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  #console {
+    position: absolute;
+    right: 0;
+    display: none;
+    bottom: 0px;
+    height: 6000px;
+    width: 4000px;
+    box-shadow: 0 0 8px black;
+    background-color: black;
+    color: white;
+    resize: none;
+  }
